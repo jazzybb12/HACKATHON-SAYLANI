@@ -1,0 +1,35 @@
+@font-face {
+    font-family: HeadingFont;
+    src: url(../assets/fonts/Heading.woff);
+}
+@font-face {
+    font-family:sideFont ;
+    src: url(../assets/fonts/sidebarFont.woff);
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.heading{
+    font-family: HeadingFont;
+}
+.sideFont{
+font-family: sideFont;
+}
+.sideFont:hover{
+color: black;
+}
+
+.widthContainer{
+    max-width: 85%;
+    margin: auto;
+}
+title{
+    font-family: HeadingFont;
+}
+#root{
+    font-family: sideFont !important;
+}
+.sideFont:hover{
+    font-weight: bold;
+}

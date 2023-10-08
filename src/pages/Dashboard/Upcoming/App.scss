@@ -1,0 +1,17 @@
+.box-container {
+    display: flex;
+    justify-content: space-between; /* To distribute boxes evenly */
+    align-items: flex-start; /* Align boxes to the top */
+  }
+  
+  .box {
+    flex: 1; /* Allow boxes to grow and fill available space evenly */
+    padding: 16px;
+    margin: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add additional styling as needed */
+  
